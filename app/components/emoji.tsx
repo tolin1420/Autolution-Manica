@@ -9,6 +9,8 @@ import { ModelType } from "../store";
 import BotIcon from "../icons/bot.svg";
 import BlackBotIcon from "../icons/black-bot.svg";
 
+import logo from "../../public/logo.jpg";
+
 export function getEmojiUrl(unified: string, style: EmojiStyle) {
   return `https://cdn.staticfile.org/emoji-datasource-apple/14.0.0/img/${style}/64/${unified}.png`;
 }
@@ -35,7 +37,11 @@ export function Avatar(props: { model?: ModelType; avatar?: string }) {
         {props.model?.startsWith("gpt-4") ? (
           <BlackBotIcon className="user-avatar" />
         ) : (
-          <BotIcon className="user-avatar" />
+          // <div>1</div>
+          // <BotIcon className="user-avatar" />
+          <div>
+            <img className="logo_ss" src="/logo.jpg" alt="" />
+          </div>
         )}
       </div>
     );
