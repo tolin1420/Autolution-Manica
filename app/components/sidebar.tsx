@@ -154,7 +154,7 @@ export function SideBar(props: { className?: string }) {
           </div>
           <div className={styles["sidebar-action"]}>
             <a href={REPO_URL} target="_blank">
-              <img className={styles["btn_icons_c"]} src="/icon2.jpg" alt="" />
+              <img className={styles["btn_icons_c"]} src="/icon2.png" alt="" />
 
               {/* <IconButton icon={<GithubIcon />} shadow /> */}
             </a>
