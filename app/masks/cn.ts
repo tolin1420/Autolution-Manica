@@ -48,6 +48,29 @@ export const CN_MASKS: BuiltinMask[] = [
     builtin: true,
   },
   {
+    avatar: "1f978",
+    name: "高考志愿填写",
+    context: [
+      {
+        role: "user",
+        content:
+          "我想让你担任高考志愿填写。我会写一些想要的专业，你的工作就是为我推荐大学",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 1,
+      max_tokens: 2000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+  {
     avatar: "1f69b",
     name: "后勤工作",
     context: [
