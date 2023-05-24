@@ -10,7 +10,7 @@ const cn = {
     ChatItemCount: (count: number) => `${count} 条对话`,
   },
   Chat: {
-    SubTitle: (count: number) => `与 ChatGPT 的 ${count} 条对话`,
+    SubTitle: (count: number) => `与 Together 的 ${count} 条对话`,
     Actions: {
       ChatList: "查看消息列表",
       CompressedHistory: "查看压缩后的历史 Prompt",
@@ -223,7 +223,7 @@ const cn = {
     NotShow: "不再展示",
     ConfirmNoShow: "确认禁用？禁用后可以随时在设置中重新启用。",
     Title: "挑选一个面具",
-    SubTitle: "伯乐导航",
+    SubTitle: "伯乐科技",
     More: "查看全部",
   },
 

@@ -10,7 +10,7 @@ const tw: LocaleType = {
     ChatItemCount: (count: number) => `${count} 條對話`,
   },
   Chat: {
-    SubTitle: (count: number) => `您已經與 ChatGPT 進行了 ${count} 條對話`,
+    SubTitle: (count: number) => `您已經與 Together 進行了 ${count} 條對話`,
     Actions: {
       ChatList: "查看訊息列表",
       CompressedHistory: "查看壓縮後的歷史 Prompt",
@@ -40,7 +40,7 @@ const tw: LocaleType = {
     Copy: "複製全部",
     Download: "下載檔案",
     MessageFromYou: "來自您的訊息",
-    MessageFromChatGPT: "來自 ChatGPT 的訊息",
+    MessageFromChatGPT: "來自 Together 的訊息",
   },
   Memory: {
     Title: "上下文記憶 Prompt",
@@ -217,7 +217,7 @@ const tw: LocaleType = {
     Return: "返回",
     Skip: "跳过",
     Title: "挑选一个面具",
-    SubTitle: "伯乐导航",
+    SubTitle: "伯乐科技",
     More: "搜索更多",
     NotShow: "不再展示",
     ConfirmNoShow: "确认禁用？禁用后可以随时在设置中重新启用。",

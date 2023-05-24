@@ -224,7 +224,7 @@ const jp: LocaleType = {
     Return: "返回",
     Skip: "跳过",
     Title: "挑选一个面具",
-    SubTitle: "伯乐导航",
+    SubTitle: "伯乐科技",
     More: "搜索更多",
     NotShow: "不再展示",
     ConfirmNoShow: "确认禁用？禁用后可以随时在设置中重新启用。",
